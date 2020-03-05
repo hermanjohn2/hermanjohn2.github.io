@@ -3,6 +3,11 @@ body {
     color: #000;
 }
 
+nav {
+    /* adds box shadow on nav bar (freeCodeCamp.org) */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
 nav ul {
     list-style-type: none;
     margin: 0;
@@ -15,6 +20,7 @@ nav li {
     float: left;
 }
 
+/* Creates horizontal nav bar */
 nav li a {
     display: block;
     color: #ffffff;
@@ -23,6 +29,7 @@ nav li a {
     text-decoration: none;
 }
 
+/* Nav bar option changes color on hover */
 nav li a:hover {
     background-color: #111;
 }
@@ -43,9 +50,10 @@ nav li a:hover {
 
 #homework {
     float: left;
-    margin: 10px;
+    width: 50%;
 }
 
-#headshot {
+#bio {
     float: right;
+    width: 50%;
 }
