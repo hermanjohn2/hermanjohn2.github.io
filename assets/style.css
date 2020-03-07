@@ -2,6 +2,11 @@
     font-family: 'Changa', sans-serif;
 }
 
+/* Background photo created by mrsiraphol - www.freepik.com */
+body {
+    background-image: url(./images/elegant-background.jpg);
+}
+
 .float-left {
     float: left;
 }
@@ -33,3 +38,8 @@
 .fa-linkedin {
     background: #007bb5;
     color: white;
+}
+
+#contact-form {
+    padding: 50px;
+}
