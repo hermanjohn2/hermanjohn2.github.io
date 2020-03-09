@@ -4,7 +4,7 @@
 
 /* https://www.freepik.com/free-photos-vectors/background | Background vector created by starline - www.freepik.com  */
 body {
-  background-image: url(./images/elegant-background.jpg);
+  background-image: url(../assets/images/elegant-background.jpg);
 }
 
 .float-left {
@@ -39,7 +39,12 @@ body {
   background: #007bb5;
   color: white;
 }
-
+.jumbo-1 {
+  background-image: url(../assets/images/blue-univerese.jpg);
+  background-position: center;
+  background-size: 100% auto;
+  color: #d9ffd4;
+}
 #contact-form {
   padding: 50px;
 }
