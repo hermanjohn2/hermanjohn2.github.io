@@ -2,9 +2,9 @@
   font-family: "Changa", sans-serif;
 }
 
-/* https://www.freepik.com/free-photos-vectors/background | Background vector created by starline - www.freepik.com  */
+/* https://www.freepik.com/free-vector/elegant-white-background-with-shiny-lines_4077186.htm#page=1&query=background%20starline&position=5 */
 body {
-  background-image: url(../assets/images/elegant-background.jpg);
+  background-image: url(./images/elegant-background.jpg);
 }
 
 .float-left {
@@ -40,14 +40,11 @@ body {
   color: white;
 }
 
+/* Photo by tbee from Pexels url: https://www.pexels.com/photo/wood-texture-background-pine-82256/ */
 .jumbo-1 {
-  background-image: url(./images/boards.jpg);
+  background-image: url(./images/wood-texture-background.jpg);
   background-position: center;
   background-size: 100% auto;
-}
-
-.card-box-style {
-  box-shadow: ;
 }
 
 #contact-form {
