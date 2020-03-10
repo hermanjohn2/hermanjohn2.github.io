@@ -39,12 +39,18 @@ body {
   background: #007bb5;
   color: white;
 }
+
 .jumbo-1 {
-  background-image: url(../assets/images/blue-univerese.jpg);
+  background-image: url(./images/boards.jpg);
   background-position: center;
   background-size: 100% auto;
-  color: #d9ffd4;
+  color: #fff;
 }
+
+.card-box-style {
+  box-shadow: ;
+}
+
 #contact-form {
   padding: 50px;
 }
