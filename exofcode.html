@@ -2,38 +2,24 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta
-			name="viewport"
-			content="width=device-width, initial-scale=1.0"
-		/>
-		<link
-			rel="stylesheet"
-			type="text/css"
-			href="./assets/style.css"
-		/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="./assets/links.css" />
 		<link
 			rel="stylesheet"
 			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
 			crossorigin="anonymous"
 		/>
-		<link
-			href="https://fonts.googleapis.com/css?family=Changa&display=swap"
-			rel="stylesheet"
-		/>
-		<link
-			rel="stylesheet"
-			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-		/>
+		<link href="https://fonts.googleapis.com/css?family=Changa&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
 		<title>John Herman | Portfolio</title>
 	</head>
 
 	<body>
 		<!--Navbar-->
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-			<a class="navbar-brand" href="./index.html"
-				>John Herman</a
-			>
+			<a class="navbar-brand active" href="./index.html">John Herman | Developer<span class="sr-only">(current)</span></a>
+			<!-- Navbar toggler -->
 			<button
 				class="navbar-toggler"
 				type="button"
@@ -45,13 +31,13 @@
 			>
 				<span class="navbar-toggler-icon"></span>
 			</button>
-			<!-- Navbar collapse on smaller viewport -->
+
+			<!--Navbar dropdown on collapse-->
 			<div class="collapse navbar-collapse" id="navbarNav">
 				<ul class="navbar-nav">
-					<!--Nav bar drop down on smaller viewport-->
 					<li class="nav-item dropdown">
 						<a
-							class="nav-link dropdown-toggle"
+							class="nav-link dropdown-toggle text-light"
 							href="#"
 							id="navbarDropdown"
 							role="button"
@@ -61,39 +47,16 @@
 						>
 							Portfolio
 						</a>
-						<div
-							class="dropdown-menu"
-							aria-labelledby="navbarDropdown"
-						>
-							<a
-								class="dropdown-item"
-								href="./portfolio.html"
-								>Projects</a
-							>
-							<a
-								class="dropdown-item active"
-								href="./exofcode.html"
-								>Examples of
-								Code<span
-									class="sr-only"
-									>(current)</span
-								></a
-							>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item text-light" href="./portfolio.html">Projects</a>
+							<a class="dropdown-item text-light" href="./exofcode.html">Examples of Code</a>
 						</div>
 					</li>
 					<li class="nav-item">
-						<a
-							class="nav-link"
-							href="./contact.html"
-							>Contact</a
-						>
+						<a class="nav-link text-light" href="./contact.html">Contact</a>
 					</li>
 					<li class="nav-item">
-						<a
-							href="https://github.com/hermanjohn2"
-							class="nav-link"
-							target="_blank"
-						>
+						<a href="https://github.com/hermanjohn2" class="nav-link text-light" target="_blank">
 							Github
 						</a>
 					</li>
@@ -104,6 +67,7 @@
 							href="https://www.linkedin.com/in/john-joseph-herman"
 							class="nav-link fa fa-linkedin active"
 							target="_blank"
+							title="Link to John Herman's LinkedIn site"
 						></a>
 					</li>
 				</ul>
@@ -111,28 +75,17 @@
 		</nav>
 
 		<!-- Assignment #3 Card -->
-		<div
-			class="card mb-3 shadow-lg p-3 mb-5 bg-white rounded"
-			style="margin: 5% 15%;"
-		>
+		<div class="card mb-3 shadow-lg p-3 mb-5 bg-white rounded" style="margin: 5% 15%;">
 			<a href="https://hermanjohn2.github.io" target="_blank"
-				><img
-					src="assets/images/pswdGenerator.png"
-					class="card-img-top"
-					alt="Screenshot of Password Generator site"
+				><img src="assets/images/pswdGenerator.png" class="card-img-top" alt="Screenshot of Password Generator site"
 			/></a>
 			<div class="card-body">
 				<h4 class="card-title">Password Generator</h4>
 				<p class="card-text">
-					The purpose of this assignment was to
-					create a Password Generator that creates
-					secure passwords.
+					The purpose of this assignment was to create a Password Generator that creates secure passwords.
 				</p>
 				<p class="card-text">
-					<a
-						class="card-link text-muted"
-						href="https://github.com/hermanjohn2/hermanjohn2.github.io"
-						target="_blank"
+					<a class="card-link text-muted" href="https://github.com/hermanjohn2/hermanjohn2.github.io" target="_blank"
 						>Github Repository</a
 					>
 				</p>
@@ -140,28 +93,17 @@
 		</div>
 
 		<!-- Assignment #2 Card -->
-		<div
-			class="card mb-3 shadow-lg p-3 mb-5 bg-white rounded"
-			style="margin: 5% 15%;"
-		>
+		<div class="card mb-3 shadow-lg p-3 mb-5 bg-white rounded" style="margin: 5% 15%;">
 			<a href="https://hermanjohn2.github.io" target="_blank"
-				><img
-					src="assets/images/portfolio-ss.png"
-					class="card-img-top"
-					alt="Screenshot of Portfolio site"
+				><img src="assets/images/portfolio-ss.png" class="card-img-top" alt="Screenshot of Portfolio site"
 			/></a>
 			<div class="card-body">
 				<h4 class="card-title">Responsive Portfolio</h4>
 				<p class="card-text">
-					The purpose of this assignment was to
-					create a responsive portfolio using
-					Bootstrap.
+					The purpose of this assignment was to create a responsive portfolio using Bootstrap.
 				</p>
 				<p class="card-text">
-					<a
-						class="card-link text-muted"
-						href="https://github.com/hermanjohn2/hermanjohn2.github.io"
-						target="_blank"
+					<a class="card-link text-muted" href="https://github.com/hermanjohn2/hermanjohn2.github.io" target="_blank"
 						>Github Repository</a
 					>
 				</p>
@@ -169,30 +111,17 @@
 		</div>
 
 		<!--Assignment #1 Card-->
-		<div
-			class="card mb-3 shadow-lg p-3 mb-5 bg-white rounded"
-			style="margin: 5% 15%;"
-		>
-			<a
-				href="https://hermanjohn2.github.io/codeRefractor/"
-				target="_blank"
-				><img
-					src="./assets/images/hw01.png"
-					class="card-img-top"
-					alt="Screenshot of Code Refractor site"
+		<div class="card mb-3 shadow-lg p-3 mb-5 bg-white rounded" style="margin: 5% 15%;">
+			<a href="https://hermanjohn2.github.io/codeRefractor/" target="_blank"
+				><img src="./assets/images/hw01.png" class="card-img-top" alt="Screenshot of Code Refractor site"
 			/></a>
 			<div class="card-body">
 				<h4 class="card-title">Code Refractor</h4>
 				<p class="card-text">
-					The purpose of this assignment was to
-					refractor existing code to meet
-					accessibility standards.
+					The purpose of this assignment was to refractor existing code to meet accessibility standards.
 				</p>
 				<p class="card-text">
-					<a
-						class="card-link text-muted"
-						href="https://github.com/hermanjohn2/codeRefractor"
-						target="_blank"
+					<a class="card-link text-muted" href="https://github.com/hermanjohn2/codeRefractor" target="_blank"
 						>Github Repository</a
 					>
 				</p>
