@@ -1,35 +1,21 @@
-/* Sets font for all text */
 * {
 	font-family: 'Changa', sans-serif;
-	background: url(./images/blur-dark.jpg) no-repeat center center fixed;
-	background-size: cover;
 }
 
-.center {
-	margin: auto;
-	width: 50%;
-	padding: 2% 0;
+body {
+	background: url(../images/pencil-bg.jpg) no-repeat center center fixed;
+	background-size: 100%;
+	background-color: #fafafa;
 }
 
-.float-left {
-	float: left;
-}
-.float-right {
-	float: right;
-}
-
-.light-font {
-	color: #fff;
-}
-
-.gray-font {
-	color: #dbdbdb;
+.current-page {
+	text-decoration: underline;
 }
 
 /* LinkedIn button */
 .fa {
-	padding: 20px;
-	font-size: 30px;
+	padding: 10px;
+	font-size: 15px;
 	width: 50px;
 	text-align: center;
 	text-decoration: none;
@@ -56,7 +42,3 @@
 #contact-form {
 	padding: 50px;
 }
-
-/* #welcome {
-	margin: 10%;
-} */
