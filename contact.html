@@ -119,56 +119,54 @@
 			</div>
 		</nav>
 
-		<!-- Contact Form -->
-		<!-- On submit opens personal email with fields already filled in-->
-		<form
-			id="contact-form"
-			accesskey="f"
-			method="post"
-			action="mailto:hermanjohn2@gmail.com"
-			enctype="text/plain"
-		>
-			<div class="form-group">
-				<label for="exampleFormControlInput1"
-					>Name</label
-				>
-				<input
-					type="text"
-					class="form-control"
-					id="exampleFormControlInput1"
-					name="name"
-					placeholder="John Smith"
-					required
-				/>
-				<br />
-				<label for="exampleFormControlInput1"
-					>Email address</label
-				>
-				<input
-					type="email"
-					class="form-control"
-					id="exampleFormControlInput1"
-					name="email"
-					placeholder="name@example.com"
-					required
-				/>
+		<!-- Headline -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1
+						class="secondary-headline my-3 text-center"
+						style="
+							font-family: 'Shadows Into Light',
+								sans-serif;
+							font-size: 8vw;
+						"
+					>
+						Let's build together.
+					</h1>
+				</div>
 			</div>
-			<div class="form-group">
-				<label for="exampleFormControlTextarea1"
-					>Message</label
-				>
-				<textarea
-					class="form-control"
-					id="exampleFormControlTextarea1"
-					name="message"
-					rows="10"
-					required
-				></textarea>
+		</div>
+
+		<!-- Contact Information -->
+		<div class="container">
+			<div class="row ml-2">
+				<div id="contact-info" class="col-md-6 pt-5">
+					<h2>John Herman</h2>
+					<h3>Atlanta, GA</h3>
+					<a href="mailto:hermanjohn2@gmail.com"
+						><h3 class="contact-link">
+							hermanjohn2@gmail.com
+						</h3></a
+					>
+					<h3>(770) 241-6512</h3>
+					<a
+						href="./assets/pdf/john-herman-resume.pdf"
+						target="_blank"
+						><h3 class="contact-link">
+							Resume
+						</h3></a
+					>
+				</div>
+				<div class="col-md-6 pt-5">
+					<img
+						src="./assets/images/headshot1.jpg"
+						alt="Headshot of John Herman"
+						class="img-fluid shadow-lg"
+						style="height: 30vw;"
+					/>
+				</div>
 			</div>
-			<button type="submit" class="btn btn-primary bg-dark">
-				Submit
-			</button>
-		</form>
+		</div>
 
 		<!-- Logic -->
 		<script
