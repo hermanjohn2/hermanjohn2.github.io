@@ -2,7 +2,10 @@
 <html lang="en">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0"
+		/>
 
 		<link
 			rel="stylesheet"
@@ -15,10 +18,18 @@
 			rel="stylesheet"
 		/>
 		<link
+			href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
+			rel="stylesheet"
+		/>
+		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 		/>
-		<link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+		<link
+			rel="stylesheet"
+			type="text/css"
+			href="./assets/css/style.css"
+		/>
 		<title>John Herman | Portfolio</title>
 	</head>
 
@@ -26,7 +37,9 @@
 		<!--Navbar-->
 		<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
 			<a class="navbar-brand active" href="./index.html"
-				>John Herman | Developer<span class="sr-only">(current)</span></a
+				>John Herman | Developer<span class="sr-only"
+					>(current)</span
+				></a
 			>
 			<!-- Navbar toggler -->
 			<button
@@ -68,12 +81,15 @@
 							<a
 								class="dropdown-item"
 								href="./assignments.html"
-								>Examples of Code</a
+								>Examples of
+								Code</a
 							>
 						</div>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link text-light" href="./contact.html"
+						<a
+							class="nav-link text-light"
+							href="./contact.html"
 							>Contact</a
 						>
 					</li>
@@ -100,78 +116,131 @@
 			</div>
 		</nav>
 
-		<!-- Assignment #3 Card -->
-		<div class="card mb-3 shadow-lg p-3 mb-5 bg-white rounded" style="margin: 5% 15%;">
-			<a href="https://hermanjohn2.github.io" target="_blank"
-				><img
-					src="assets/images/pswdGenerator.png"
-					class="card-img-top"
-					alt="Screenshot of Password Generator site"
-			/></a>
-			<div class="card-body">
-				<h4 class="card-title">Password Generator</h4>
-				<p class="card-text">
-					The purpose of this assignment was to create a Password
-					Generator that creates secure passwords.
-				</p>
-				<p class="card-text">
-					<a
-						class="card-link text-muted"
-						href="https://github.com/hermanjohn2/hermanjohn2.github.io"
-						target="_blank"
-						>Github Repository</a
+		<!-- Headline -->
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<h1
+						class="secondary-headline my-3 text-center"
+						style="
+							font-family: 'Shadows Into Light',
+								sans-serif;
+							font-size: 8vw;
+						"
 					>
-				</p>
+						Examples of Code
+					</h1>
+				</div>
 			</div>
 		</div>
 
-		<!-- Assignment #2 Card -->
-		<div class="card mb-3 shadow-lg p-3 mb-5 bg-white rounded" style="margin: 5% 15%;">
-			<a href="https://hermanjohn2.github.io" target="_blank"
-				><img
-					src="assets/images/portfolio-ss.png"
-					class="card-img-top"
-					alt="Screenshot of Portfolio site"
-			/></a>
-			<div class="card-body">
-				<h4 class="card-title">Responsive Portfolio</h4>
-				<p class="card-text">
-					The purpose of this assignment was to create a responsive
-					portfolio using Bootstrap.
-				</p>
-				<p class="card-text">
+		<!-- Assignment 1 -->
+		<div class="card mb-3 shadow-lg p-3 mx-5 my-2 bg-white rounded">
+			<div class="row no-gutters">
+				<div class="col-md-4">
 					<a
-						class="card-link text-muted"
-						href="https://github.com/hermanjohn2/hermanjohn2.github.io"
+						href="https://hermanjohn2.github.io/passwordGenerator/"
 						target="_blank"
-						>Github Repository</a
-					>
-				</p>
+						><img
+							src="assets/images/pswdGenerator.png"
+							class="card-img-top"
+							alt="Screenshot of Band Explorer site"
+					/></a>
+				</div>
+				<div class="col-md-8">
+					<div class="card-body">
+						<h4 class="card-title">
+							Password Generator
+						</h4>
+						<p class="card-text">
+							Code that generates a
+							random, secure password
+							based on user input.
+						</p>
+						<p class="card-text">
+							<a
+								class="card-link text-dark"
+								href="https://github.com/hermanjohn2/passwordGenerator"
+								target="_blank"
+								>Github
+								Repository</a
+							>
+						</p>
+					</div>
+				</div>
 			</div>
 		</div>
 
-		<!--Assignment #1 Card-->
-		<div class="card mb-3 shadow-lg p-3 mb-5 bg-white rounded" style="margin: 5% 15%;">
-			<a href="https://hermanjohn2.github.io/codeRefractor/" target="_blank"
-				><img
-					src="./assets/images/hw01.png"
-					class="card-img-top"
-					alt="Screenshot of Code Refractor site"
-			/></a>
-			<div class="card-body">
-				<h4 class="card-title">Code Refractor</h4>
-				<p class="card-text">
-					The purpose of this assignment was to refractor existing
-					code to meet accessibility standards.
-				</p>
-				<p class="card-text">
+		<!-- Assignment 2 -->
+		<div class="card mb-3 shadow-lg p-3 mx-5 my-2 bg-white rounded">
+			<div class="row no-gutters">
+				<div class="col-md-4">
 					<a
-						class="card-link text-muted"
-						href="https://github.com/hermanjohn2/codeRefractor"
+						href="https://hermanjohn2.github.io/weatherDashboard/"
 						target="_blank"
-						>Github Repository</a
-					>
-				</p>
+						><img
+							src="assets/images/weatherDash.png"
+							class="card-img-top"
+							alt="Screenshot of Band Explorer site"
+					/></a>
+				</div>
+				<div class="col-md-8">
+					<div class="card-body">
+						<h4 class="card-title">
+							Weather Dashboard
+						</h4>
+						<p class="card-text">
+							Code utilizing the
+							OpenWeatherMap API.
+						</p>
+						<p class="card-text">
+							<a
+								class="card-link text-dark"
+								href="https://github.com/hermanjohn2/weatherDashboard"
+								target="_blank"
+								>Github
+								Repository</a
+							>
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Assignment 3 -->
+		<div class="card mb-3 shadow-lg p-3 mx-5 my-2 bg-white rounded">
+			<div class="row no-gutters">
+				<div class="col-md-4">
+					<a
+						href="https://hermanjohn2.github.io/codingQuiz/"
+						target="_blank"
+						><img
+							src="assets/images/codingQuiz.png"
+							class="card-img-top"
+							alt="Screenshot of Band Explorer site"
+					/></a>
+				</div>
+				<div class="col-md-8">
+					<div class="card-body">
+						<h4 class="card-title">
+							Coding Quiz
+						</h4>
+						<p class="card-text">
+							Code that manipulates
+							the DOM and displays an
+							interactive quiz.
+						</p>
+						<p class="card-text">
+							<a
+								class="card-link text-dark"
+								href="https://github.com/hermanjohn2/codingQuiz"
+								target="_blank"
+								>Github
+								Repository</a
+							>
+						</p>
+					</div>
+				</div>
 			</div>
 		</div>
 
