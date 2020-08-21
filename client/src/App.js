@@ -7,7 +7,7 @@ import Contact from './pages/Contact';
 const App = () => {
 	return (
 		<Router>
-			<Route exact path="/" component={Home} />
+			<Route exact path={['/', '/home']} component={Home} />
 			<Route exact path="/contact" component={Contact} />
 		</Router>
 	);

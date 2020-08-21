@@ -1,0 +1,11 @@
+/* LinkedIn & Github Buttons */
+.fa {
+	text-align: center;
+	text-decoration: none;
+	font-size: 1.5rem;
+	color: #ffffff;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
