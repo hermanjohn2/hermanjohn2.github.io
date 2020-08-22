@@ -7,7 +7,7 @@ import Card from 'react-bootstrap/Card';
 const ProjectCard = ({ data }) => {
 	return (
 		<div>
-			<Card className="shadow-lg p-3 mx-5 my-2 rounded">
+			<Card className="shadow-lg p-5 m-5 rounded">
 				<Row className="no-gutters">
 					<Col className="pt-3" md={4}>
 						<Card.Link

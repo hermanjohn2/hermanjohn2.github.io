@@ -1,7 +1,10 @@
 .headshot {
-	height: 20vw;
+	/* height: 70vh; */
+	width: 15vw;
+	/* align-content: center; */
 }
 
 .contact-card {
-	height: 20vw;
+	margin-left: 20%;
+	margin-right: 20%;
 }

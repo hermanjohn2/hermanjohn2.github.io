@@ -13,7 +13,10 @@ const Assignments = () => {
 				Examples of Code
 			</h1>
 			{assignmentData.map(assignment => (
-				<AssignmentCard data={assignment} />
+				<AssignmentCard
+					key={assignment.id}
+					data={assignment}
+				/>
 			))}
 		</div>
 	);

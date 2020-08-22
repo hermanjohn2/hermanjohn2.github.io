@@ -1,5 +1,6 @@
 [
 	{
+		"id": 4,
 		"title": "Eat Da Burger",
 		"deployedLink": "https://eat-da-burger-jh.herokuapp.com/",
 		"githubLink": "https://github.com/hermanjohn2/eatDaBurger-mysql-handlebars",
@@ -7,6 +8,7 @@
 		"description": "Assignment to create and deploy a burger-devouring application. This application utilizes: Express, MySQL and Handlebars. I also learned and applied Foundation as a front-end framework."
 	},
 	{
+		"id": 3,
 		"title": "Password Generator",
 		"deployedLink": "https://hermanjohn2.github.io/passwordGenerator/",
 		"githubLink": "https://github.com/hermanjohn2/passwordGenerator",
@@ -14,6 +16,7 @@
 		"description": "Assignment to build a password generator using vanilla JavaScript."
 	},
 	{
+		"id": 2,
 		"title": "Employee Management System",
 		"deployedLink": "https://github.com/hermanjohn2/employeeTracker",
 		"githubLink": "https://github.com/hermanjohn2/employeeTracker",
@@ -21,6 +24,7 @@
 		"description": "Assignment to create a CLI application to manage an employee database."
 	},
 	{
+		"id": 1,
 		"title": "Take Notes",
 		"deployedLink": "https://take-notes-1.herokuapp.com/",
 		"githubLink": "https://github.com/hermanjohn2/takeNotes",
