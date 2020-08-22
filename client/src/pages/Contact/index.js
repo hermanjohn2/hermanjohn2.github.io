@@ -24,25 +24,23 @@ const Contact = () => {
 				</Row>
 			</Container>
 
-			<Card className="contact-card shadow-lg p-5 my-5 rounded">
+			<Card className="contact-card shadow-lg rounded">
 				<Row className="no-gutters">
 					<Col md={8}>
 						<Card.Body>
-							<Card.Title>
-								John Herman
-							</Card.Title>
-							<Card.Text>
-								Atlanta, GA
+							<h2>John Herman</h2>
+							<h2> Atlanta, GA</h2>
+							<h2>
 								hermanjohn2@gmail.com
-								(770) 241-6512
-								<Card.Link
-									href="/pdf/resume-john-herman.pdf"
-									target="_blank">
-									<h3 className="link">
-										Resume
-									</h3>
-								</Card.Link>
-							</Card.Text>
+							</h2>
+							<h2>(770) 241-6512</h2>
+
+							<Card.Link
+								className="link"
+								href="/pdf/resume-john-herman.pdf"
+								target="_blank">
+								<h2>Resume</h2>
+							</Card.Link>
 						</Card.Body>
 					</Col>
 					<Col
