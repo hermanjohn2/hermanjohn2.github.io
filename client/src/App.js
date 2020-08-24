@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
 import Assignments from './pages/Assignments';
+import AboutMe from './pages/AboutMe';
 
 const App = () => {
 	return (
@@ -17,6 +18,7 @@ const App = () => {
 				path="/assignments"
 				component={Assignments}
 			/>
+			<Route exact path="/about" component={AboutMe} />
 		</Router>
 	);
 };

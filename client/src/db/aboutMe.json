@@ -1,0 +1,34 @@
+[
+	{
+		"name": "John Herman",
+		"location": "Atlanta, GA",
+		"email": "hermanjohn2@gmail.com",
+		"contactNumber": "(770) 241-6512",
+		"resumePdf": "/pdf/resume-john-herman.pdf",
+		"linkedInUrl": "https://www.linkedin.com/in/john-joseph-herman/",
+		"gitHubUrl": "https://github.com/hermanjohn2",
+		"title": "Full Stack Web Developer",
+		"avatarUrl": "/images/headshot1.jpg",
+		"brandStatement": "Honest, dependable, hard-working Full Stack Web Developer with 9+ years of experience in management, staffing, training, and business development. Received a Certificate in Full Stack Web Development from the Georgia Institute of Technology, where I gained skills in JavaScript, HTML, CSS, Node.js, React.js, MySQL and MongoDB. Demonstrates strong problem-solving qualities, adaptability, and excellent interpersonal skills. Applied aspects of UX and agile development in a recent project where I worked on a team of two to develop a MERN stack application that creates a collaborative music queue.",
+		"languages": ["JavaScript", "HTML", "CSS", "Node"],
+		"frameworks": [
+			"React.js",
+			"Express.js",
+			"jQuery",
+			"Bootstrap",
+			"Foundation",
+			"Handlebars.js"
+		],
+		"databases": ["MongoDB", "MySQL"],
+		"methods": [
+			"Git",
+			"Pair Programming",
+			"Agile Web Development",
+			"Model-View-Controller",
+			"Object-Oriented Programming",
+			"RESTful Web Services",
+			"Heroku",
+			"MongoDB Atlas"
+		]
+	}
+]

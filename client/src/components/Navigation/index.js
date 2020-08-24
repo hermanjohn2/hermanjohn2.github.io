@@ -33,6 +33,9 @@ const Navigation = () => {
 						<Nav.Link href="#contact">
 							Contact
 						</Nav.Link>
+						<Nav.Link href="#about">
+							About Me
+						</Nav.Link>
 					</Nav>
 					<Nav>
 						<Nav.Link
