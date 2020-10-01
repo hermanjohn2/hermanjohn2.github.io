@@ -1,4 +1,5 @@
 import React from 'react';
+import { openPopupWidget } from 'react-calendly';
 
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -11,6 +12,8 @@ import aboutMeData from '../../db/aboutMe.json';
 import Navigation from '../../components/Navigation';
 
 const Contact = () => {
+	const url = 'https://calendly.com/john-herman-dev/60min';
+
 	return (
 		<div>
 			<Navigation />
@@ -32,12 +35,9 @@ const Contact = () => {
 							<h2>{aboutMeData[0].email}</h2>
 							<h2>{aboutMeData[0].contactNumber}</h2>
 
-							<Card.Link
-								className="link"
-								href={aboutMeData[0].resumePdf}
-								target="_blank">
-								<h2>Resume</h2>
-							</Card.Link>
+							<h2 className="link" onClick={() => openPopupWidget({ url })}>
+								Schedule a Meeting
+							</h2>
 						</Card.Body>
 					</Col>
 					<Col variant="top" className="pt-3" md={4}>
