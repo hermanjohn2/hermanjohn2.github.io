@@ -12,7 +12,7 @@ import aboutMeData from '../../db/aboutMe.json';
 import Navigation from '../../components/Navigation';
 
 const Contact = () => {
-	const url = 'https://calendly.com/john-herman-dev/60min';
+	const url = 'https://calendly.com/john-herman-dev/tutorial-session';
 
 	return (
 		<div>
