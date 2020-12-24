@@ -27,11 +27,11 @@ const Navigation = () => {
 					<Nav>
 						<Nav.Link
 							href={aboutMeData[0].gitHubUrl}
-							className="fa fa-github active"
+							className="nav-icons fa fa-github active"
 							target="_blank"></Nav.Link>
 						<Nav.Link
 							href={aboutMeData[0].linkedInUrl}
-							className="fa fa-linkedin active"
+							className="nav-icons fa fa-linkedin active"
 							target="_blank"></Nav.Link>
 					</Nav>
 				</Navbar.Collapse>
