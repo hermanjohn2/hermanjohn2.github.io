@@ -35,7 +35,7 @@ const ProjectCard = ({ data }) => {
 				<Row className="no-gutters">
 					<Col className="pt-3" md={4}>
 						<Card.Link href={data.deployedLink} target="_blank">
-							<Card.Img variant="top" src={data.img} />
+							<Card.Img variant="top" src={data.img} alt={data.alt} />
 						</Card.Link>
 					</Col>
 					<Col md={8}>

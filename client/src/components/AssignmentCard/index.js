@@ -10,45 +10,29 @@ const AssignmentCard = ({ data }) => {
 			<Card className="shadow-lg p-3 mx-5 my-2 rounded">
 				<Row className="no-gutters">
 					<Col className="pt-3" md={4}>
-						<Card.Link
-							href={data.deployedLink}
-							target="_blank">
-							<Card.Img
-								variant="top"
-								src={data.img}
-							/>
+						<Card.Link href={data.deployedLink} target="_blank">
+							<Card.Img variant="top" src={data.img} alt={data.alt} />
 						</Card.Link>
 					</Col>
 					<Col md={8}>
 						<Card.Body>
 							<Card.Link
 								className="link"
-								href={
-									data.deployedLink
-								}
+								href={data.deployedLink}
 								target="_blank">
-								<Card.Title>
-									{
-										data.title
-									}
-								</Card.Title>
+								<Card.Title>{data.title}</Card.Title>
 							</Card.Link>
 
 							<Card.Text>
-								{
-									data.description
-								}
+								{data.description}
 								<br />
 								<br />
 								<Card.Link
 									className="link"
-									href={
-										data.githubLink
-									}
+									href={data.githubLink}
 									rel="noopener noreferrer"
 									target="_blank">
-									GitHub
-									Repository
+									GitHub Repository
 								</Card.Link>
 							</Card.Text>
 						</Card.Body>
