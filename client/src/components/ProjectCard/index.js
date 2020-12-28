@@ -6,7 +6,7 @@ import Card from 'react-bootstrap/Card';
 
 import './style.css';
 
-const ProjectCard = ({ data }) => {
+const ProjectCard = ({ data, wait }) => {
 	const [message, setMessage] = useState('');
 	const [hasAnimated, setHasAnimated] = useState(false);
 
@@ -25,9 +25,9 @@ const ProjectCard = ({ data }) => {
 		}
 	};
 
-	const wait = ms => {
-		return new Promise(resolve => setTimeout(resolve, ms));
-	};
+	// const wait = ms => {
+	// 	return new Promise(resolve => setTimeout(resolve, ms));
+	// };
 
 	return (
 		<div>

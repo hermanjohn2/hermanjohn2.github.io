@@ -8,11 +8,16 @@ import Assignments from './pages/Assignments';
 import AboutMe from './pages/AboutMe';
 
 const App = () => {
+	// Helper function that will assist in creating a delay for a text effect on a few components
+	const wait = ms => {
+		return new Promise(resolve => setTimeout(resolve, ms));
+	};
+
 	return (
 		<Router>
-			<Route exact path={['/', '/home']} component={Home} />
+			<Route exact path={['/', '/home']} render={props => <Home {...props} wait={wait} />} />
 			<Route exact path="/contact" component={Contact} />
-			<Route exact path="/projects" component={Projects} />
+			<Route exact path="/projects" render={props => <Projects {...props} wait={wait} />} />
 			<Route exact path="/assignments" component={Assignments} />
 			<Route exact path="/about" component={AboutMe} />
 		</Router>
