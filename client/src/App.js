@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { HashRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Contact from './pages/Contact';
@@ -15,7 +15,7 @@ const App = () => {
 
 	// Using the render property in my Route allows me to pass down the wait function as a prop so it can be used in multiple components
 	return (
-		<Router basename={process.env.PUBLIC_URL}>
+		<Router>
 			<Switch>
 				<Route exact path={['/', '/home']} render={props => <Home {...props} wait={wait} />} />
 				<Route exact path="/contact" component={Contact} />
