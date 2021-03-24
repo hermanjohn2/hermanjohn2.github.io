@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
 import Contact from './pages/Contact';
@@ -13,13 +13,16 @@ const App = () => {
 		return new Promise(resolve => setTimeout(resolve, ms));
 	};
 
+	// Using the render property in my Route allows me to pass down the wait function as a prop so it can be used in multiple components
 	return (
-		<Router>
-			<Route exact path={['/', '/home']} render={props => <Home {...props} wait={wait} />} />
-			<Route exact path="/contact" component={Contact} />
-			<Route exact path="/projects" render={props => <Projects {...props} wait={wait} />} />
-			<Route exact path="/assignments" component={Assignments} />
-			<Route exact path="/about" component={AboutMe} />
+		<Router basename={process.env.PUBLIC_URL}>
+			<Switch>
+				<Route exact path={['/', '/home']} render={props => <Home {...props} wait={wait} />} />
+				<Route exact path="/contact" component={Contact} />
+				<Route exact path="/projects" render={props => <Projects {...props} wait={wait} />} />
+				<Route exact path="/assignments" component={Assignments} />
+				<Route exact path="/about" component={AboutMe} />
+			</Switch>
 		</Router>
 	);
 };
